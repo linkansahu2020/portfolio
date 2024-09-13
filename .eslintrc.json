@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended", // Base ESLint recommended rules
+    "plugin:react/recommended", // React-specific linting rules
+    "plugin:react-hooks/recommended" // Rules for React hooks
+  ],
+  "env": {
+    "browser": true
+  }
+}
